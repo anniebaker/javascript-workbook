@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a86ebe;
+}
+
+h1 {
+    color: white;
+    font-size: 4em;
+    line-height: .7em;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Gochi Hand', cursive;
+}
+
+#bar {
+    background-color: white;
+    height: 4px;
+    width: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#translator {
+    color: white;
+    background-color: #82439b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 3em;
+    text-align: center;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 3em;
+    margin: 60px auto 20px auto;
+    border-radius: 10px;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    height: 2em;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+button {
+    display: block;
+    margin: 0 auto 10px auto;
+    height: 50px;
+    width: 200px;
+    font-size: 2em;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    background-color: #535166;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
