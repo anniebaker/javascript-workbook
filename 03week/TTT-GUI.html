@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TTT-GUI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="TTT-GUI.css" />
+</head>
+<body>
+    <h1 id="msg"></h1>
+    <div class="board">
+        <div class="row-one">
+            <div id="play" class="square one" onclick="ticTacToe(this, 1)">&nbsp;</div>
+            <div id="play" class="square two" onclick="ticTacToe(this, 2)">&nbsp;</div>
+            <div id="play" class="square three" onclick="ticTacToe(this, 4)">&nbsp;</div>
+        </div>
+        <div class="row-two">
+            <div id="play" class="square four" onclick="ticTacToe(this, 8)">&nbsp;</div>
+            <div id="play" class="square five" onclick="ticTacToe(this, 16)">&nbsp;</div>
+            <div id="play" class="square six" onclick="ticTacToe(this, 32)">&nbsp;</div>
+        </div>
+        <div class="row-three">
+            <div id="play" class="square seven" onclick="ticTacToe(this, 64)">&nbsp;</div>
+            <div id="play" class="square eight" onclick="ticTacToe(this, 128)">&nbsp;</div>
+            <div id="play" class="square nine" onclick="ticTacToe(this, 256)">&nbsp;</div>
+        </div>
+    </div>
+    <!-- <div class="reset" onclick="reset()">Reset Board</div> -->
+<script src="TTT-GUI.js"></script>
+</body>
+</html>
