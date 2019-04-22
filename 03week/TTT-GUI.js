@@ -1,6 +1,6 @@
 'use strict';
 
-let players = ["X", "O"]
+let players = ["X", "O"];
 let marker = ["X", "O"];
 let score = [0,0];
 let winScores = [7, 56, 84, 448, 73, 146, 292, 273];
